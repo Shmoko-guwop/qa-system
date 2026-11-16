@@ -1,0 +1,18 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Vector database and uploaded documents
+backend/chroma_db/
+backend/documents/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
